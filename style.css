@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(203, 175, 175);
+}
+
+.game-board {
+    margin: 0 auto;
+    display: grid;
+    width: 300px;
+    grid: 1fr/repeat(3, 1fr);
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.controls {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nickname {
+    width: 150px;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+    aspect-ratio: 1/1;
+    max-width: 200px;
+    font-size: 60px;
+}
+
+.start-btn {
+    background-color: limegreen;
+}

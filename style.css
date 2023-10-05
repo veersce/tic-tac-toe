@@ -1,5 +1,6 @@
 body {
     background-color: rgb(203, 175, 175);
+    font-family: Gabarito;
 }
 
 .game-board {
@@ -7,7 +8,7 @@ body {
     display: grid;
     width: 300px;
     grid: 1fr/repeat(3, 1fr);
-    gap: 2px;
+    gap: 3px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -35,6 +36,14 @@ body {
     font-size: 60px;
 }
 
-.start-btn {
+.start-btn,
+.restart-btn {
     background-color: limegreen;
+    text-transform: uppercase;
+}
+
+.winner-msg{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 48px;
 }
